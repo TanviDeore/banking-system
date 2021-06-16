@@ -56,7 +56,7 @@
                     
     error_reporting(E_ALL ^ E_WARNING); 
     // connect to database
-        <?php include 'connection.php';?>  
+        $dbh = mysqli_connect('localhost',"root",'','grip_bank')
     // turn off auto-commit
     mysqli_autocommit($dbh, FALSE);
     
