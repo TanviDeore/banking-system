@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    <!--<head> -->
+    <head>
     <?php include 'script.html';?>
         
         <title>Form</title>
