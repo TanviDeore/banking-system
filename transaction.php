@@ -48,7 +48,7 @@
                             <th><b>Account Type</b></th>
                             <th><b>Name</b></th>
                             <th><b>Balance</b></th>
-                          <!--  <th colspan="2"><b>operation</b></th> -->
+                         
                         </tr>
 
                     </thread>
@@ -56,8 +56,7 @@
                     
     error_reporting(E_ALL ^ E_WARNING); 
     // connect to database
-    $dbh = mysqli_connect('localhost', "root", "", 'grip_bank') or die("Cannot connect");
-    
+        <?php include 'connection.html';?>  
     // turn off auto-commit
     mysqli_autocommit($dbh, FALSE);
     
