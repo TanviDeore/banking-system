@@ -56,7 +56,7 @@
                     
     error_reporting(E_ALL ^ E_WARNING); 
     // connect to database
-        <?php include 'connection.html';?>  
+        <?php include 'connection.php';?>  
     // turn off auto-commit
     mysqli_autocommit($dbh, FALSE);
     
