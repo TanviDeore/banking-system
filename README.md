@@ -25,9 +25,12 @@ Features
   
     git clone https://github.com/TanviDeore/banking-system.git
 
-   2. Import the database:
+   2. Database:
         1) Create a MySQL database named banking_system.
-        2) Import the provided SQL file into the database.
+        2) Create relevant tables (based on detail.php and transaction.php)
+        3) Update DB credentials in connection.php
+    
+   3. Run via local server (e.g., XAMPP)
 
 5) Configure the database connection:
 
