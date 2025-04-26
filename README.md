@@ -40,7 +40,6 @@ Features
 5) Configure the database connection:
     ```
     Update the connection.php file with your database credentials.
-
 7) Run the application:
     ```
     Place the project folder in your web server's root directory (e.g., htdocs for XAMPP).
