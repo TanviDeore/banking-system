@@ -8,7 +8,6 @@
     2) Transfer money between customers
     3) Record and view transaction history
 
-
 2) It features a seamless workflow from viewing all customers to selecting a customer, transferring funds, and recording transactions.
 
 Features
